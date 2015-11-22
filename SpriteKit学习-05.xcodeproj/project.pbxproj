@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		B0836E7B1C004CCB00F63214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E7A1C004CCB00F63214 /* main.m */; };
 		B0836E7E1C004CCB00F63214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E7D1C004CCB00F63214 /* AppDelegate.m */; };
-		B0836E811C004CCB00F63214 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E801C004CCB00F63214 /* GameScene.m */; };
-		B0836E831C004CCB00F63214 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0836E821C004CCB00F63214 /* GameScene.sks */; };
 		B0836E861C004CCB00F63214 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E851C004CCB00F63214 /* GameViewController.m */; };
 		B0836E891C004CCB00F63214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0836E871C004CCB00F63214 /* Main.storyboard */; };
 		B0836E8B1C004CCB00F63214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0836E8A1C004CCB00F63214 /* Assets.xcassets */; };
 		B0836E8E1C004CCB00F63214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0836E8C1C004CCB00F63214 /* LaunchScreen.storyboard */; };
+		B0836E991C004CE600F63214 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E951C004CE600F63214 /* SpaceshipScene.m */; };
+		B0836E9A1C004CE600F63214 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836E981C004CE600F63214 /* UIColor+Random.m */; };
+		B0836E9D1C004E0100F63214 /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0836E9B1C004E0100F63214 /* rain.sks */; };
+		B0836E9E1C004E0100F63214 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B0836E9C1C004E0100F63214 /* spark.png */; };
+		B0836EA11C0055AF00F63214 /* RainZone.m in Sources */ = {isa = PBXBuildFile; fileRef = B0836EA01C0055AF00F63214 /* RainZone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		B0836E7A1C004CCB00F63214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0836E7C1C004CCB00F63214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0836E7D1C004CCB00F63214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0836E7F1C004CCB00F63214 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		B0836E801C004CCB00F63214 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		B0836E821C004CCB00F63214 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B0836E841C004CCB00F63214 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		B0836E851C004CCB00F63214 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B0836E881C004CCB00F63214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0836E8A1C004CCB00F63214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0836E8D1C004CCB00F63214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0836E8F1C004CCB00F63214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0836E951C004CE600F63214 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
+		B0836E961C004CE600F63214 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		B0836E971C004CE600F63214 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		B0836E981C004CE600F63214 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		B0836E9B1C004E0100F63214 /* rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rain.sks; sourceTree = "<group>"; };
+		B0836E9C1C004E0100F63214 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B0836E9F1C0055AF00F63214 /* RainZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainZone.h; sourceTree = "<group>"; };
+		B0836EA01C0055AF00F63214 /* RainZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainZone.m; sourceTree = "<group>"; };
+		B0836EA31C00579200F63214 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +74,21 @@
 			children = (
 				B0836E7C1C004CCB00F63214 /* AppDelegate.h */,
 				B0836E7D1C004CCB00F63214 /* AppDelegate.m */,
-				B0836E7F1C004CCB00F63214 /* GameScene.h */,
-				B0836E801C004CCB00F63214 /* GameScene.m */,
-				B0836E821C004CCB00F63214 /* GameScene.sks */,
 				B0836E841C004CCB00F63214 /* GameViewController.h */,
 				B0836E851C004CCB00F63214 /* GameViewController.m */,
 				B0836E871C004CCB00F63214 /* Main.storyboard */,
 				B0836E8A1C004CCB00F63214 /* Assets.xcassets */,
 				B0836E8C1C004CCB00F63214 /* LaunchScreen.storyboard */,
 				B0836E8F1C004CCB00F63214 /* Info.plist */,
+				B0836E961C004CE600F63214 /* SpaceshipScene.h */,
+				B0836E951C004CE600F63214 /* SpaceshipScene.m */,
+				B0836E971C004CE600F63214 /* UIColor+Random.h */,
+				B0836E981C004CE600F63214 /* UIColor+Random.m */,
 				B0836E791C004CCB00F63214 /* Supporting Files */,
+				B0836E9B1C004E0100F63214 /* rain.sks */,
+				B0836E9C1C004E0100F63214 /* spark.png */,
+				B0836E9F1C0055AF00F63214 /* RainZone.h */,
+				B0836EA01C0055AF00F63214 /* RainZone.m */,
 			);
 			path = "SpriteKit学习-05";
 			sourceTree = "<group>";
@@ -83,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B0836E7A1C004CCB00F63214 /* main.m */,
+				B0836EA31C00579200F63214 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,8 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0836E831C004CCB00F63214 /* GameScene.sks in Resources */,
+				B0836E9E1C004E0100F63214 /* spark.png in Resources */,
 				B0836E8E1C004CCB00F63214 /* LaunchScreen.storyboard in Resources */,
+				B0836E9D1C004E0100F63214 /* rain.sks in Resources */,
 				B0836E8B1C004CCB00F63214 /* Assets.xcassets in Resources */,
 				B0836E891C004CCB00F63214 /* Main.storyboard in Resources */,
 			);
@@ -158,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0836E9A1C004CE600F63214 /* UIColor+Random.m in Sources */,
 				B0836E861C004CCB00F63214 /* GameViewController.m in Sources */,
+				B0836E991C004CE600F63214 /* SpaceshipScene.m in Sources */,
+				B0836EA11C0055AF00F63214 /* RainZone.m in Sources */,
 				B0836E7E1C004CCB00F63214 /* AppDelegate.m in Sources */,
-				B0836E811C004CCB00F63214 /* GameScene.m in Sources */,
 				B0836E7B1C004CCB00F63214 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SpriteKit学习-05/PrefixHeader.pch";
 				INFOPLIST_FILE = "SpriteKit学习-05/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.360buy.SpriteKit---05";
@@ -284,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SpriteKit学习-05/PrefixHeader.pch";
 				INFOPLIST_FILE = "SpriteKit学习-05/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.360buy.SpriteKit---05";
